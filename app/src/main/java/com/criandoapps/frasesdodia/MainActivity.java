@@ -69,9 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 "Deus é muito maior que tudo isso e ele esta comigo"
         };
         int geraFrases = new Random().nextInt(49);
-
         TextView texto = findViewById(R.id.fraseSelecionada);
         texto.setText( frases[ geraFrases] );
-
     }
 }
